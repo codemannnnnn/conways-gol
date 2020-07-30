@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+.front-page {
+  /* display: flex;
+  align-items: center;
+  background: lightgrey;
+  padding-top: 1px; */
+  background: inherit;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  color: dodgerblue;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 80px;
+  font-weight: 400;
+  text-shadow: 1px 1px white, 1px 1px white, 1px 1px white, 2px 2px black,
+    2px 2px black, 2px 2px black;
+}
+.heading-rules {
+  display: flex;
+
+  color: dodgerblue;
+
+  font-size: 40px;
+  font-weight: 400;
+}
+.cta {
+  padding-top: 1%;
+}
+.btn {
+  width: 100%;
+  height: 4vh;
+  border: 1px solid dodgerblue;
+  margin: 1%;
+  margin-bottom: 2%;
+
+  border-radius: 10px;
+  font-size: 20px;
+  background: white;
+  color: dodgerblue;
+  font-weight: bold;
+}
+.btn:hover {
+  background: whitesmoke;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+}
+
+.light {
+  background: white;
+}
+.dark {
+  background: black;
+}
+.game-box {
+  display: flex;
+  justify-content: space-around;
+}
