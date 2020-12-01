@@ -116,12 +116,12 @@ const Game = () => {
               setGrid(rows);
             }}
           >
-            preset 1
+            Preset 1
           </button>
           <button
             className="btn"
             onClick={() => {
-              setGrid(generateEmptyGrid());
+              setGrid(presetOne());
             }}
           >
             Clear Grid
